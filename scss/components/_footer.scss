@@ -98,29 +98,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fff;
+    background: #646464;
+    filter: grayscale(100%);
     transition: 0.5s;
     img {
       display: block;
     }
-    &--fb {
+
+    &:hover {
+      filter: grayscale(0%);
+      // background: none;
+    }
+
+    &--fb:hover {
       background: #4696ef;
     }
-    &--in {
+    &--in:hover {
       background: #0a66c2;
     }
-    &--twi {
+    &--twi:hover {
       background: #1da1f2;
     }
-    &--gmail {
+    &--gmail:hover {
       background: #fff;
     }
-    &--youtu {
+    &--youtu:hover {
       background: #f00;
-    }
-    &:hover {
-      filter: grayscale(100%);
-      background: #646464;
     }
   }
 }

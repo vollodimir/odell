@@ -560,30 +560,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
+  background: #646464;
+  filter: grayscale(100%);
   transition: 0.5s;
 }
 .social__item img {
   display: block;
 }
-.social__item--fb {
+.social__item:hover {
+  filter: grayscale(0%);
+}
+.social__item--fb:hover {
   background: #4696ef;
 }
-.social__item--in {
+.social__item--in:hover {
   background: #0a66c2;
 }
-.social__item--twi {
+.social__item--twi:hover {
   background: #1da1f2;
 }
-.social__item--gmail {
+.social__item--gmail:hover {
   background: #fff;
 }
-.social__item--youtu {
+.social__item--youtu:hover {
   background: #f00;
-}
-.social__item:hover {
-  filter: grayscale(100%);
-  background: #646464;
 }
 
 @media only screen and (max-width: 768px) {
