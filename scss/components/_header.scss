@@ -26,12 +26,22 @@ $line-height: $width/7;
   &__container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     max-width: 1170px;
     margin: 0 auto;
   }
 
   &__logo {
     z-index: 120;
+    align-items: center;
+    max-height: 90px;
+    max-width: 220px;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
   }
 
   &__menus {
@@ -64,7 +74,7 @@ $line-height: $width/7;
       }
 
       a {
-        color: white;
+        color: #fff;
       }
     }
     &:last-child {
@@ -82,6 +92,7 @@ $line-height: $width/7;
     position: relative;
     min-height: 40px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     z-index: 120;
 
@@ -108,6 +119,7 @@ $line-height: $width/7;
     position: relative;
     min-height: 50px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     z-index: 120;
 
@@ -117,9 +129,13 @@ $line-height: $width/7;
       font-size: 16px;
       color: #000;
       transition: 0.4s;
+
       &:hover {
         opacity: 0.5;
       }
+    }
+    & > li:nth-of-type(1) > a {
+      margin-left: 0;
     }
     & > li:nth-of-type(2) > a,
     & > li:nth-of-type(3) > a {
@@ -134,7 +150,7 @@ $line-height: $width/7;
     width: $width;
     height: $width;
     position: absolute;
-    right: 50px;
+    right: 25px;
     z-index: 10;
     opacity: 0;
 
@@ -152,7 +168,7 @@ $line-height: $width/7;
   &__lines {
     display: none;
     position: absolute;
-    right: 50px;
+    right: 25px;
     width: $width;
     height: $line-height/2;
     border-radius: $line-height/3;

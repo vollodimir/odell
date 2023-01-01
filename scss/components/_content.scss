@@ -111,6 +111,7 @@
     justify-content: space-between;
     margin-bottom: 40px;
     label {
+      flex-shrink: 0;
       display: block;
       min-width: 120px;
       height: 40px;

@@ -13,9 +13,9 @@
     <div class="wrapper">
       <header class="header">
         <div class="header__body">
-          <input class="header__input" type="checkbox" />
-          <div class="header__lines"></div>
           <div class="header__container">
+            <input class="header__input" type="checkbox" />
+            <div class="header__lines"></div>
             <div class="header__logo">
               <a href="#"><img src="./img/logo.png" alt="" /></a>
             </div>
@@ -66,10 +66,7 @@
       </header>
       <main>
         <section class="first-screen">
-          <div
-            class="first-screen__body"
-            style="background-image: url('./img/first-screen_bg.jpg')"
-          >
+          <div class="first-screen__body">
             <div class="container">
               <div class="first-screen__text">
                 <h2>Odell Medical Search</h2>
@@ -167,7 +164,9 @@
                   </div>
                   <p>Upload your Resume *</p>
                   <div class="post__file">
-                    <label><input type="file" required />Сhoose File</label>
+                    <label>
+                      <input type="file" accept=".docx, .pdf, .txt, .rtf" required />Сhoose File
+                    </label>
                     <div class="post__file-title">
                       Accepted formats: doc, .docx, .pdf, .txt, .rtf, maximum size 8MB
                     </div>
@@ -313,6 +312,11 @@
       </footer>
     </div>
 
-    <!-- <script src="./js/main.js"></script> -->
+    <div class="go-top">
+      <a href="#"> </a>
+    </div>
+
+    <script src="./js/jquery-3.6.2.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

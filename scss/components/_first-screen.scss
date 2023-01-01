@@ -1,6 +1,7 @@
 .first-screen {
   &__body {
     min-height: 510px;
+    background-image: url('../img/first-screen_bg.jpg');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -8,7 +9,7 @@
   }
 
   &__text {
-    padding-top: 108px;
+    //padding-top: 108px;
     max-width: 510px;
 
     h2 {

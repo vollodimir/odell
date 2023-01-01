@@ -1,9 +1,11 @@
 .btn {
+  flex-shrink: 0;
   min-height: 60px;
   min-width: 100px;
   border: 1px solid #12958b;
   border-radius: 6px;
   overflow: hidden;
+  text-align: center;
 
   a,
   button {
@@ -32,14 +34,13 @@
 
 .telephone {
   position: relative;
-  padding-left: 24px;
-  background: url('../img/icon/tel.svg') no-repeat left center;
-  z-index: 120;
   transition: 0.5s;
   &:hover {
     opacity: 0.8;
   }
   a {
+    padding-left: 24px;
+    background: url('../img/icon/tel.svg') no-repeat left center;
     font-weight: 600;
     font-size: 18px;
     color: #fff;
@@ -48,8 +49,8 @@
 
 ////go top button
 
-$background-active: rgba(#386641, 0.9);
-$primary: rgba(#386641, 0.4);
+$background-active: rgba(#12958b, 0.9);
+$primary: rgba(#12958b, 0.4);
 $trans: 0.3s;
 
 .go-top {
