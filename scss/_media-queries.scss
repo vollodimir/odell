@@ -274,12 +274,12 @@
       transform: scale(1);
     }
     &:hover > a {
-      background: url('../../img/icon/sub-menu-open.svg') no-repeat right center;
+      background: url('../img/icon/sub-menu-open.svg') no-repeat right center;
     }
 
     & > a {
       padding-right: 16px;
-      background: url('../../img/icon/sub-menu.svg') no-repeat right center;
+      background: url('../img/icon/sub-menu.svg') no-repeat right center;
     }
   }
 

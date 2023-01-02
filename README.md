@@ -2,4 +2,4 @@
 
 HTML templtate, HTML to WordPress, mobile first
 
-Hosted: <a href="#">pl.vn.ua</a>
+HTML version hosted: <a href="http://pl.vn.ua/odell/">pl.vn.ua/odell</a>

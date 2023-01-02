@@ -129,7 +129,7 @@
   height: 16px;
   border-radius: 2px;
   border: 2px solid #0a2540;
-  background: url("../../img/icon/sub-menu.svg") no-repeat right 4px center;
+  background: url("../img/icon/sub-menu.svg") no-repeat right 4px center;
 }
 
 .first-screen__body {
@@ -197,7 +197,7 @@
   margin-bottom: 15px;
 }
 .find-job__input-city {
-  background: #fff url("../../img/icon/geolocation.svg") no-repeat center left 14px;
+  background: #fff url("../img/icon/geolocation.svg") no-repeat center left 14px;
 }
 .find-job__details {
   margin-top: 15px;
@@ -206,7 +206,7 @@
   color: #12958b;
   display: inline-block;
   padding-right: 20px;
-  background: url("../../img/icon/right-arrow.svg") no-repeat top 7px right;
+  background: url("../img/icon/right-arrow.svg") no-repeat top 7px right;
 }
 .find-job__right {
   color: #fff;
@@ -335,7 +335,7 @@
   margin-left: 25px;
 }
 .post__testimonials {
-  background: #f6f9fc url("../../img/icon/right-quote.svg") no-repeat right 10px top 77px;
+  background: #f6f9fc url("../img/icon/right-quote.svg") no-repeat right 10px top 77px;
   padding: 40px;
 }
 .post__testimonials p {
@@ -357,7 +357,7 @@
 .post__address {
   margin-bottom: 30px;
   color: #f2542d;
-  background: url("../../img/icon/geolocation-orange.svg") no-repeat center left;
+  background: url("../img/icon/geolocation-orange.svg") no-repeat center left;
   padding-left: 24px;
   font-size: 15px;
   line-height: 23px;
@@ -751,11 +751,11 @@
     transform: scale(1);
   }
   .menu-item-has-children:hover > a {
-    background: url("../../img/icon/sub-menu-open.svg") no-repeat right center;
+    background: url("../img/icon/sub-menu-open.svg") no-repeat right center;
   }
   .menu-item-has-children > a {
     padding-right: 16px;
-    background: url("../../img/icon/sub-menu.svg") no-repeat right center;
+    background: url("../img/icon/sub-menu.svg") no-repeat right center;
   }
   .first-screen__body {
     margin-top: 90px;

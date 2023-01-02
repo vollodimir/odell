@@ -125,7 +125,6 @@
     }
   }
   &__file-title {
-    // max-width: 187px;
     font-size: 12px;
     line-height: 18px;
   }
@@ -139,9 +138,9 @@
     line-height: 21px;
     margin-left: 25px;
   }
-  ////////////////////////////
+
   &__testimonials {
-    background: #f6f9fc url('../../img/icon/right-quote.svg') no-repeat right 10px top 77px;
+    background: #f6f9fc url('../img/icon/right-quote.svg') no-repeat right 10px top 77px;
     padding: 40px;
     p {
       font-size: 16px;
@@ -164,7 +163,7 @@
   &__address {
     margin-bottom: 30px;
     color: #f2542d;
-    background: url('../../img/icon/geolocation-orange.svg') no-repeat center left;
+    background: url('../img/icon/geolocation-orange.svg') no-repeat center left;
     padding-left: 24px;
     font-size: 15px;
     line-height: 23px;
