@@ -1,16 +1,30 @@
 .first-screen {
   &__body {
-    min-height: 510px;
-    background-image: url('../img/first-screen_bg.jpg');
+    margin-top: 60px;
+    background-image: url('../img/first-screen_bg_1280.jpg');
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 90px;
+
+    .container {
+      display: flex;
+      align-items: center;
+      min-height: 510px;
+    }
   }
 
   &__text {
-    //padding-top: 108px;
-    max-width: 510px;
+    padding: 15px;
+    border-radius: 6px;
+    background: rgba(#fff, 0.5);
+
+    h1 {
+      font-family: 'Manrope', sans-serif;
+      font-size: 50px;
+      line-height: 64px;
+      color: #0a2540;
+      font-weight: 400;
+    }
 
     h2 {
       margin-bottom: 20px;
@@ -18,13 +32,6 @@
       font-size: 26px;
       line-height: 39px;
       color: #12958b;
-    }
-    h1 {
-      font-family: 'Manrope', sans-serif;
-      font-size: 50px;
-      line-height: 64px;
-      color: #0a2540;
-      font-weight: 400;
     }
   }
 }

@@ -3,33 +3,24 @@
   color: #adbdcc;
   a {
     color: #adbdcc;
-    transition: 0.3s;
-    &:hover {
-      color: #fff;
-    }
   }
 
   &__widgets {
     padding: 56px 0 50px;
-    display: flex;
-    justify-content: space-between;
-    &--first {
-      font-size: 12px;
-      max-width: 220px;
-      padding-top: 0;
 
-      .widget__body {
-        padding-top: 15px;
-      }
+    &--first {
+      margin: 0 auto;
+      max-width: 220px;
+      font-size: 12px;
+      text-align: center;
     }
   }
+
   &__logo {
     max-height: 90px;
-    max-width: 220px;
     margin-bottom: 27px;
     img {
       height: 100%;
-      width: 100%;
       object-fit: cover;
     }
   }
@@ -100,30 +91,9 @@
     justify-content: center;
     background: #646464;
     filter: grayscale(100%);
-    transition: 0.5s;
+
     img {
       display: block;
-    }
-
-    &:hover {
-      filter: grayscale(0%);
-      // background: none;
-    }
-
-    &--fb:hover {
-      background: #4696ef;
-    }
-    &--in:hover {
-      background: #0a66c2;
-    }
-    &--twi:hover {
-      background: #1da1f2;
-    }
-    &--gmail:hover {
-      background: #fff;
-    }
-    &--youtu:hover {
-      background: #f00;
     }
   }
 }

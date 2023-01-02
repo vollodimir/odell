@@ -1,7 +1,6 @@
-﻿@import 'variables';
-@import 'components/all';
-@import 'media-queries';
+﻿@import 'components/all';
 @import 'shared';
+@import 'media-queries';
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@300;400;500;600&display=swap');
 
@@ -44,6 +43,7 @@ input:focus {
 
 input {
   height: 60px;
+  width: 100%;
   border-radius: 6px;
   padding: 18px 17px 19px 37px;
   box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.1);
@@ -51,15 +51,4 @@ input {
   font-size: 15px;
   line-height: 23px;
   font-weight: 300;
-}
-
-.wrapper {
-  max-width: $max-width-wrapper;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-.container {
-  max-width: $max-width-container;
-  margin: 0 auto;
 }

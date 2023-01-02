@@ -8,24 +8,30 @@
     justify-content: center;
   }
 }
+
 .post {
-  max-width: 570px;
+  h2,
+  h3,
+  &__subtitle {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+  }
+
+  h2,
+  h3,
+  h4 {
+    color: #0a2540;
+  }
 
   h2 {
-    font-family: 'Manrope', sans-serif;
     font-size: 38px;
     line-height: 52px;
-    color: #0a2540;
-    font-weight: 400;
     margin-bottom: 30px;
   }
 
   h3 {
-    font-family: 'Manrope', sans-serif;
     font-size: 24px;
     line-height: 33px;
-    color: #0a2540;
-    font-weight: 400;
     margin-bottom: 25px;
   }
   h4 {
@@ -33,7 +39,6 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-    color: #0a2540;
   }
 
   p {
@@ -48,11 +53,9 @@
   }
 
   &__subtitle {
-    font-family: 'Manrope', sans-serif;
     font-size: 18px;
     line-height: 25px;
     color: #f2542d;
-    font-weight: 400;
     margin-bottom: 30px;
   }
 
@@ -61,19 +64,19 @@
     justify-content: space-between;
     margin-bottom: 40px;
 
-    &--first {
-      margin-top: 30px;
+    &--first,
+    &--second {
       height: 360px;
-      border-radius: 6px;
       flex-basis: 47.5%;
+      border-radius: 6px;
       overflow: hidden;
     }
+
+    &--first {
+      margin-top: 30px;
+    }
     &--second {
-      border-radius: 6px;
-      height: 360px;
       margin-bottom: 30px;
-      flex-basis: 47.5%;
-      overflow: hidden;
     }
     img {
       height: 100%;
@@ -97,37 +100,24 @@
   }
 
   &__input-group {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 21px;
     input {
-      flex-basis: 50%;
+      margin-bottom: 15px;
     }
   }
 
   &__file {
-    display: flex;
-    max-width: 322px;
-    justify-content: space-between;
     margin-bottom: 40px;
     label {
-      flex-shrink: 0;
       display: block;
-      min-width: 120px;
       height: 40px;
       padding: 8px 18px;
       border-radius: 6px;
       background: #969696;
       border: 1px solid #969696;
+      text-align: center;
       font-weight: 400;
       line-height: 23px;
       color: #fff;
-      cursor: pointer;
-      transition: 0.7s;
-      &:hover {
-        color: #969696;
-        background: #fff;
-      }
     }
 
     input[type='file'] {
@@ -135,7 +125,7 @@
     }
   }
   &__file-title {
-    max-width: 187px;
+    // max-width: 187px;
     font-size: 12px;
     line-height: 18px;
   }
@@ -151,7 +141,7 @@
   }
   ////////////////////////////
   &__testimonials {
-    background: #f6f9fc url('../../img/icon/right-quote.svg') no-repeat right 70px top 77px;
+    background: #f6f9fc url('../../img/icon/right-quote.svg') no-repeat right 10px top 77px;
     padding: 40px;
     p {
       font-size: 16px;

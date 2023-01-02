@@ -4,7 +4,6 @@ jQuery(document).ready(function ($) {
   $(window).on('scroll', function () {
     if ($(window).scrollTop() > 800) {
       $('.go-top').show();
-      console.log('1111');
     } else {
       $('.go-top').hide();
     }
@@ -16,7 +15,10 @@ jQuery(document).ready(function ($) {
   });
 
   ////----sub menu
+
   $('.menu-item-has-children').on('click', function () {
-    $(this).children('.sub-menu').slideToggle('fast');
+    if ($(document).width() < 1023) {
+      $(this).children('.sub-menu').slideToggle('fast');
+    }
   });
 });
