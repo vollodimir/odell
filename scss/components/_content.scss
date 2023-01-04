@@ -1,5 +1,13 @@
 .content {
   background: #fff;
+
+  h1 {
+    font-size: 40px;
+    line-height: normal;
+    color: #0a2540;
+    padding-top: 50px;
+  }
+
   &__posts {
     padding: 100px 0;
     display: grid;
@@ -10,6 +18,17 @@
 }
 
 .post {
+  p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    margin-bottom: 18px;
+  }
+  strong {
+    font-weight: 500;
+    color: #12958b;
+  }
+
   h2,
   h3,
   &__subtitle {
@@ -39,17 +58,6 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 27px;
-  }
-
-  p {
-    font-size: 18px;
-    line-height: 27px;
-    font-weight: 400;
-    margin-bottom: 18px;
-  }
-  strong {
-    font-weight: 500;
-    color: #12958b;
   }
 
   &__subtitle {

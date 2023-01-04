@@ -1,5 +1,6 @@
 ﻿@import 'components/all';
 @import 'shared';
+@import 'wp';
 @import 'media-queries';
 
 @import url('https://fonts.googleapis.com/css2?family=Manrope&family=Poppins:wght@300;400;500;600&display=swap');
@@ -19,6 +20,8 @@ body {
 
 a {
   text-decoration: none;
+
+  color: #0a2540;
 }
 
 h1,

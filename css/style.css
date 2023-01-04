@@ -7,9 +7,6 @@
   z-index: 100;
   border-bottom: 1px solid rgba(228, 228, 230, 0.3);
 }
-.header a {
-  white-space: nowrap;
-}
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -133,7 +130,6 @@
 }
 
 .first-screen__body {
-  margin-top: 60px;
   background-image: url("../img/first-screen_bg_1280.jpg");
   background-position: right center;
   background-repeat: no-repeat;
@@ -216,6 +212,12 @@
 .content {
   background: #fff;
 }
+.content h1 {
+  font-size: 40px;
+  line-height: normal;
+  color: #0a2540;
+  padding-top: 50px;
+}
 .content__posts {
   padding: 100px 0;
   display: grid;
@@ -224,6 +226,16 @@
   justify-content: center;
 }
 
+.post p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+.post strong {
+  font-weight: 500;
+  color: #12958b;
+}
 .post h2,
 .post h3, .post__subtitle {
   font-family: "Manrope", sans-serif;
@@ -249,16 +261,6 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
-}
-.post p {
-  font-size: 18px;
-  line-height: 27px;
-  font-weight: 400;
-  margin-bottom: 18px;
-}
-.post strong {
-  font-weight: 500;
-  color: #12958b;
 }
 .post__subtitle {
   font-size: 18px;
@@ -405,6 +407,7 @@
   font-weight: 400;
 }
 
+.widget h2,
 .widget h3 {
   margin-bottom: 15px;
   font-weight: 500;
@@ -450,6 +453,10 @@
 }
 .social__item img {
   display: block;
+}
+
+main {
+  margin-top: 60px;
 }
 
 .container {
@@ -523,6 +530,36 @@
   background: url("../img/icon/go-top.svg") no-repeat center 46%;
 }
 
+.navigation {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.page-numbers {
+  display: block;
+  padding: 0 5px;
+  margin: 0 3px;
+  min-width: 30px;
+  height: 30px;
+  border: 1px solid #12958b;
+  border-radius: 3px;
+  line-height: 30px;
+  color: #425466;
+  overflow: hidden;
+}
+
+.page-numbers:hover,
+.current {
+  color: #fff;
+  background: #12958b;
+}
+
 @media only screen and (min-width: 480px) {
   .footer__widgets {
     display: flex;
@@ -586,6 +623,9 @@
   }
 }
 @media only screen and (min-width: 1024px) {
+  main {
+    margin-top: 90px;
+  }
   .telephone {
     transition: 0.5s;
   }
@@ -731,7 +771,7 @@
     border: none;
     padding: 15px;
     left: 30px;
-    z-index: 135;
+    z-index: 140;
     background: #e4e4e6;
     transform: scale(0, 1);
     transition: 0.5s;
@@ -740,8 +780,9 @@
     border-bottom: 1px solid rgba(10, 37, 64, 0.15);
   }
   .sub-menu a {
+    color: #646464;
     margin: 0;
-    line-height: 25px;
+    line-height: 24px;
   }
   .menu-item-has-children::after {
     content: "";
@@ -756,9 +797,6 @@
   .menu-item-has-children > a {
     padding-right: 16px;
     background: url("../img/icon/sub-menu.svg") no-repeat right center;
-  }
-  .first-screen__body {
-    margin-top: 90px;
   }
   .find-job__body {
     display: flex;
@@ -875,6 +913,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #0a2540;
 }
 
 h1,

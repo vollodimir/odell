@@ -85,6 +85,10 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  main {
+    margin-top: 90px;
+  }
+
   .telephone {
     transition: 0.5s;
 
@@ -251,7 +255,7 @@
     border: none;
     padding: 15px;
     left: 30px;
-    z-index: 135;
+    z-index: 140;
     background: #e4e4e6;
     transform: scale(0, 1);
     transition: 0.5s;
@@ -260,8 +264,9 @@
       border-bottom: 1px solid rgba(#0a2540, 0.15);
     }
     a {
+      color: #646464;
       margin: 0;
-      line-height: 25px;
+      line-height: 24px;
     }
   }
   .menu-item-has-children {
@@ -280,12 +285,6 @@
     & > a {
       padding-right: 16px;
       background: url('../img/icon/sub-menu.svg') no-repeat right center;
-    }
-  }
-
-  .first-screen {
-    &__body {
-      margin-top: 90px;
     }
   }
 

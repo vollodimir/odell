@@ -10,10 +10,6 @@ $line-height: $width/7;
   z-index: 100;
   border-bottom: 1px solid rgba(#e4e4e6, 0.3);
 
-  a {
-    white-space: nowrap;
-  }
-
   &__container {
     display: flex;
     justify-content: space-between;
