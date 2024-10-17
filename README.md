@@ -4,7 +4,7 @@ HTML templtate, landing page, HTML to WordPress, mobile first
 
 HTML version hosted: <a href="http://pl.vn.ua/odell/">pl.vn.ua/odell</a>
 
-WordPress version hosted: <a href="http://odell.pl.vn.ua/">odell.pl.vn.ua</a>
+WordPress version hosted: <a href="https://wp.pl.vn.ua/odell/">wp.pl.vn.ua/odell</a>
 
 WordPress template is archive: <strong>wp-odell.zip</strong>
 
